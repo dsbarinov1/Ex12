@@ -4,7 +4,7 @@
 #include "TimedDoor.h"
 
 int main() {
-	TimedDoor test_door(10);
-	test_door.lock();
-	test_door.unlock();
+    TimedDoor test_door(10);
+    test_door.lock();
+    test_door.unlock();
 }

@@ -29,8 +29,7 @@ void TimedDoor::DoorTimeOut() { throw std::string("close the door!"); }
 void TimedDoor::throwState() {
     if (!state) {
         throw std::string("the door is closed!");
-    }
-    else {
+    } else {
         throw std::string("the door is opened!");
     }
 }
